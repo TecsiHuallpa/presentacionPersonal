@@ -7,7 +7,8 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            background: url('fondo1.png') no-repeat center center fixed;
+            background-size: cover;
             color: #e0e0e0;
             margin: 0;
             padding: 20px;
@@ -18,11 +19,12 @@
         }
 
         .container {
-            background: rgba(0, 0, 0, 0.85);
+            background: rgba(0, 0, 0, 0.3); /* Transparencia ajustada */
+            backdrop-filter: blur(8px); /* Efecto de desenfoque */
             border-radius: 15px;
             padding: 40px;
             max-width: 700px;
-            box-shadow: 0 0 25px rgba(147, 112, 219, 0.6); /* Morado inspirado en Iso */
+            box-shadow: 0 0 25px rgba(147, 112, 219, 0.6); /* Morado de Iso */
             text-align: center;
             transition: transform 0.3s ease;
         }
@@ -32,7 +34,7 @@
             }
 
         h1 {
-            color: #9370db; /* Morado medio para combinar con Iso */
+            color: #9370db; /* Morado de Iso */
             text-shadow: 0 0 12px #9370db;
             font-size: 2.8em;
             margin-bottom: 25px;
@@ -42,6 +44,7 @@
             font-size: 1.3em;
             line-height: 1.7;
             margin: 20px 0;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra para legibilidad */
         }
 
         .highlight {
@@ -60,7 +63,7 @@
         }
 
         .game-img {
-            width: 350px; /* Más grande */
+            width: 350px;
             border-radius: 12px;
             margin-top: 25px;
             border: 3px solid #ff007a;
@@ -81,7 +84,8 @@
         .footer {
             margin-top: 35px;
             font-size: 1em;
-            color: #b0b0b0;
+            color: #e0e0e0;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
