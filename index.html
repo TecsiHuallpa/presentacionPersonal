@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentacion - Luis Alberto Tecsi Huallpa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.85);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 700px;
+            box-shadow: 0 0 25px rgba(147, 112, 219, 0.6); /* Morado inspirado en Iso */
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+            .container:hover {
+                transform: scale(1.05);
+            }
+
+        h1 {
+            color: #9370db; /* Morado medio para combinar con Iso */
+            text-shadow: 0 0 12px #9370db;
+            font-size: 2.8em;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.7;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            color: #ff007a; /* Magenta para contraste */
+            font-weight: bold;
+        }
+
+        .photo {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid #9370db; /* Morado de Iso */
+            margin: 25px auto;
+            box-shadow: 0 0 20px rgba(147, 112, 219, 0.8);
+            object-fit: cover;
+        }
+
+        .game-img {
+            width: 350px; /* Más grande */
+            border-radius: 12px;
+            margin-top: 25px;
+            border: 3px solid #ff007a;
+            transition: transform 0.3s ease;
+        }
+
+            .game-img:hover {
+                transform: scale(1.1);
+            }
+
+        .game-caption {
+            font-size: 1.2em;
+            color: #9370db; /* Morado de Iso */
+            margin-top: 10px;
+            text-shadow: 0 0 5px #9370db;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 1em;
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Luis Alberto Tecsi Huallpa</h1>
+        <img src="integrante01.jpeg" alt="Mi foto" class="photo">
+        <p>Me presento: soy estudiante de <span class="highlight">Ingenieria de Sistemas e Informatica</span> en la Universidad Continental, una carrera que me apasiona por su mezcla de logica y creatividad. Desde siempre, los <span class="highlight">videojuegos</span> han sido mi gran pasion, especialmente los shooters como Valorant, donde disfruto cada partida poniendo a prueba mis reflejos y estrategias.</p>
+        <p>Cuando no estoy frente a una pantalla, me encanta desconectar y salir a <span class="highlight">rodar en mi bicicleta</span>. Pedalear al aire libre, sentir el viento y explorar nuevos caminos es mi forma favorita de recargar energias.</p>
+        <img src="personajeValorant.jpg" alt="Mi main ISO" class="game-img">
+        <div class="game-caption">Mi main: Iso en Valorant!</div>
+        <div class="footer">Entre codigo, disparos y pedales, asi vivo mi dia a dia.</div>
+    </div>
+</body>
+</html>
